@@ -17,7 +17,34 @@ header {
   margin-top: 0.5rem;
 }
 
-.gallery-section {
+nav {
+  margin-top: 1rem;
+}
+
+.nav-menu {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.nav-menu li {
+  display: inline;
+}
+
+.nav-menu a {
+  color: #f5f5dc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-menu a:hover {
+  text-decoration: underline;
+}
+
+.content-section, .gallery-section {
   padding: 2rem;
   text-align: center;
 }
