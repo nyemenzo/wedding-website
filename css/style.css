@@ -1,0 +1,46 @@
+body {
+  font-family: 'Georgia', serif;
+  margin: 0;
+  background-color: #f5f5dc;
+  color: #4b2c2c;
+}
+
+header {
+  background-color: #800020;
+  color: #f5f5dc;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.subtitle {
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+
+.gallery-section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.gallery-grid img,
+.gallery-grid video {
+  width: 100%;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #800020;
+  color: #f5f5dc;
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
