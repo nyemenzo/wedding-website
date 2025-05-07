@@ -3,7 +3,7 @@ const scriptUrl = 'https://script.google.com/macros/s/AKfycbx14wUVyPFUF3WYg7ZGRu
 fetch(scriptUrl)
   .then(response => response.json())
   .then(media => {
-    const gallery = document.getElementById('gallery');
+    const gallery = document.querySelector('.gallery-grid');
     media.forEach(item => {
       const element = document.createElement(item.type.startsWith('image/') ? 'img' : 'video');
       element.src = item.embedUrl;
