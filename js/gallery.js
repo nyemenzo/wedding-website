@@ -1,4 +1,4 @@
-const scriptUrl = 'https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec';
+const scriptUrl = 'https://script.google.com/macros/s/AKfycbx14wUVyPFUF3WYg7ZGRuS6CgCowWxqOtlofPYebs_jmSNWWIPHWLlZ7tc2WQj5bO7gQQ/exec';
 
 fetch(scriptUrl)
   .then(response => response.json())
